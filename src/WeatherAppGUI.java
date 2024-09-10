@@ -38,52 +38,6 @@ public class WeatherAppGUI extends JFrame {
         nameText.setForeground(Color.BLUE);
         add(nameText);
 
-        //Info Button
-        JTextPane jtp = new JTextPane();
-        String message = "The Product Manager Accelerator Program is designed to support PM professionals through every stage of their career. From students looking for entry-level jobs to Directors looking to take on a leadership role, our program has helped over hundreds of students fulfill their career aspirations.\n" +
-                "\n" +
-                "Our Product Manager Accelerator community are ambitious and committed. Through our program they have learnt, honed and developed new PM and leadership skills, giving them a strong foundation for their future endeavours.\n" +
-                "\n" +
-                "Learn product management for free today on our YouTube channel \n" +
-                "https://www.youtube.com/c/drnancyli?sub_confirmation=1\n" +
-                "\n" +
-                "Interested in PM Accelerator Pro? \n" +
-                "Step 1: Attend the Product Masterclass to learn more about the program details, price, different packages, and stay until the end to get FREE  AI Course. \n" +
-                "\n" +
-                "Learn how to create a killer product portfolio 2 two weeks that will help you land any PM job( traditional or AI) even if you were laid off or have zero PM experience\n" +
-                "\n" +
-                "https://www.drnancyli.com/masterclass\n" +
-                "\n" +
-                "Step 2⃣: Reserve your early bird ticket and submit an application to talk to our Head of Admission\n" +
-                "\n" +
-                "Step 3⃣: Successful applicants join our PMA Pro community to receive customized coaching!\n" +
-                "\n" +
-                "Website\n" +
-                "http://www.drnancyli.com\n" +
-                "Phone\n" +
-                "+1 6176106855Phone number is +1 6176106855\n" +
-                "Industry\n" +
-                "E-Learning Providers\n" +
-                "Company size\n" +
-                "2-10 employees\n" +
-                "54 associated members LinkedIn members who’ve listed Product Manager Accelerator as their current workplace on their profile.\n" +
-                "Headquarters\n" +
-                "Boston, MA\n" +
-                "Founded\n" +
-                "2020\n" +
-                "Specialties\n" +
-                "Product Management, Product Manager, Product Management Training, Product Management Certification, Product Lead, Product Executive, Associate Product Manager, product management coaching, product manager resume, Product Management Interview, VP of Product, Director of Product, and Chief Product Officer";
-        JButton infoButton = new JButton(loadImage("images/info.png"));
-        infoButton.setBounds(650, 335, 35, 35);
-        infoButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                jtp.setSize(new Dimension(480, 10));
-                jtp.setPreferredSize(new Dimension(480, 10));
-                JOptionPane.showMessageDialog(jtp, message);
-            }
-        });
-        add(infoButton);
 
 
         //Temperature(s) Text
